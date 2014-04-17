@@ -1,0 +1,2 @@
+0 * * * * root bash -l -c '/opt/batsd/bin/batsd -c /opt/batsd/config.yml truncate 10'
+0 0 * * 2,5 root bash -l -c '/opt/batsd/bin/batsd -c /opt/batsd/config.yml truncate 60'
