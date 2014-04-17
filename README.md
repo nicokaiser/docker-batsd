@@ -7,11 +7,15 @@ A Dockerfile that installs Batsd, a StatsD implementation.
 ```
 $ git clone https://github.com/nicokaiser/docker-batsd.git
 $ cd docker-batsd
-$ docker build -t batsd .
+$ docker build -t nicokaiser/batsd .
 ```
 
 ## Usage
 
 ```
-$ docker run -p 8125 -p 8126 -p 8127 -d batsd
+$ docker run -p 8125 -p 8126 -p 8127 -d nicokaiser/batsd
 ```
+
+## License
+
+MIT. See the LICENSE file.
