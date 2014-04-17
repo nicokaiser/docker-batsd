@@ -1,6 +1,6 @@
 # docker-batsd
 
-A Dockerfile that installs Batsd, a StatsD implementation.
+A Dockerfile that installs [Batsd](https://github.com/noahhl/batsd), a StatsD implementation.
 
 ## Installation
 
